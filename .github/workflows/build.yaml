@@ -41,8 +41,8 @@ jobs:
       
       - name: Build
         run: |
-          docker-compose -f docker/docker-compose.registry-build.yml build --build-arg GITHUB_TOKEN=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
-          TAG=dev docker-compose -f docker/docker-compose.registry-build.yml build --build-arg GITHUB_TOKEN=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
+          docker-compose -f docker/docker-compose.registry-build.yml build --build-arg GITHUB_TOKEN=
+          TAG=dev docker-compose -f docker/docker-compose.registry-build.yml build --build-arg GITHUB_TOKEN=
     
         
 
